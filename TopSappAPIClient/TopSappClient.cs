@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-using OfficeOpenXml;
-using OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime;
+﻿using ManyHelpers.API;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -16,11 +14,12 @@ namespace TopSappAPIClient {
     public class TopSappClient {
         private string _baseUrl;
 
-        private ConsumingApiHelper _api;
+        private CosumingHelper _api;
 
         public TopSappClient(string baseUrl) {
             _baseUrl = baseUrl;
-            _api = new ConsumingApiHelper(_baseUrl);
+            _api = new CosumingHelper(_baseUrl)
+                            .AddcontentType();
         }
 
         public async Task<LoginResult> LoginAsync(string usuario, string senha, string identificador) {

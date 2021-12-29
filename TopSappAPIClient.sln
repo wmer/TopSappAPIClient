@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSappAPIClient", "TopSappAPIClient\TopSappAPIClient.csproj", "{8BD9D30F-1356-4B6D-8EA2-D22C53C6987B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyHelpers", "..\ManyHelpers\ManyHelpers\ManyHelpers.csproj", "{7B1E7461-614C-4FD5-A2EB-86CD0F70951E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8BD9D30F-1356-4B6D-8EA2-D22C53C6987B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD9D30F-1356-4B6D-8EA2-D22C53C6987B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD9D30F-1356-4B6D-8EA2-D22C53C6987B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1E7461-614C-4FD5-A2EB-86CD0F70951E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1E7461-614C-4FD5-A2EB-86CD0F70951E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1E7461-614C-4FD5-A2EB-86CD0F70951E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1E7461-614C-4FD5-A2EB-86CD0F70951E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

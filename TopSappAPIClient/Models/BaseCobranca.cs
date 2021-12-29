@@ -16,5 +16,6 @@ namespace TopSappAPIClient.Models {
         public DateTime Vencimento { get; set; }
         public string LinhaDigitavel { get; set; }
         public string Link { get; set; }
+        public string? Cidade { get; internal set; }
     }
 }
